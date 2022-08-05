@@ -56,7 +56,7 @@ android {
 
             firebaseAppDistribution {
                 appId = "1:539471433386:android:55c5e324a78ee8daa20ad3"
-                //artifactType="AAB"
+                artifactType="AAB"
                 releaseNotesFile = "app/releasenotes.txt"
                 //releaseNotesFile="bla bla bla"
                 groups = "Testadores"
