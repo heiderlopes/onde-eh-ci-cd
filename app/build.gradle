@@ -1,0 +1,92 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.appdistribution'
+}
+
+def keystorePropertiesFile = rootProject.file("app/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+
+android {
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    compileSdk 32
+
+    viewBinding {
+        enabled = true
+    }
+
+    defaultConfig {
+        applicationId "br.com.heiderlopes.ondeeh"
+        minSdk 23
+        targetSdk 32
+        versionCode 2
+        versionName "1.0.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+
+        def baseURLViaCep = System.getenv("BASE_URL_VIA_CEP") ?: viaCepURL
+
+        debug {
+            buildConfigField "String", "BASE_URL_VIA_CEP", '"' + baseURLViaCep + '"'
+        }
+
+        release {
+
+            buildConfigField "String", "BASE_URL_VIA_CEP", '"' + baseURLViaCep + '"'
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            signingConfig signingConfigs.release
+
+            firebaseAppDistribution {
+                appId = "1:539471433386:android:55c5e324a78ee8daa20ad3"
+                //artifactType="AAB"
+                releaseNotesFile = "app/releasenotes.txt"
+                //releaseNotesFile="bla bla bla"
+                groups = "Testadores"
+                //testers="heider.lopes@gmail.com"
+                serviceCredentialsFile = "app/service-account-firebase.json"
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.retrofit2:converter-moshi:2.3.0"
+
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+}

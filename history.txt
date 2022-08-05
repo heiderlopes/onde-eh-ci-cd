@@ -1,0 +1,681 @@
+    1  node -v
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+    3  brew install zsh\n
+    4  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/heiderlopes/.zprofile
+    5  eval "$(/opt/homebrew/bin/brew shellenv)"
+    6  brew install zsh
+    7  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n
+    8  cd Documents
+    9  mkdir theme
+   10  cd theme
+   11  git clone https://github.com/dracula/terminal-app.git\n
+   12  cd Documents
+   13  cd theme
+   14  git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"\n
+   15  ls -ltr
+   16  ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"\n
+   17  code ~/.zshrc
+   18  cd Documents
+   19  ls -ltr
+   20  sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"\n
+   21  "terminal.integrated.shell.osx": "/bin/zsh"\n
+   22  brew install node
+   23  ls -ltr
+   24  node -v
+   25  ls -ltr
+   26  git clone git@github.com:AmeDigital/amedigital-android.git
+   27  key-gen ssh
+   28  ssh-keygen
+   29  code /Users/heiderlopes/.ssh/id_rsa
+   30  code /Users/heiderlopes/.ssh/id_rsa.pub
+   31  ls -ltr
+   32  mkdir projeots
+   33  mkdir projetos
+   34  ls -ltr
+   35  rm -rf projeots
+   36  cd projetos
+   37  ls -ltr
+   38  git clone git@github.com:AmeDigital/amedigital-android.git
+   39  ls -ltr
+   40  cd amedigital-android
+   41  ./prepareEnvironment.sh
+   42  curl -s "https://get.sdkman.io" | bash
+   43  source "$HOME/.sdkman/bin/sdkman-init.sh"
+   44  sdk version
+   45  java -version
+   46  sdk version
+   47  java -version
+   48  sdk install java
+   49  sdk instll java 11.0.13-librca
+   50  sdk install java 11.0.13-librca
+   51  java -version
+   52  cd Documents/projetos
+   53  ls -ltr
+   54  cd amedigital-android
+   55  ls -ltr
+   56  ./prepareEnvironment.sh
+   57  ./prepareEnvironmentRN.sh
+   58  node -v
+   59  which node
+   60  sudo ln -s "$(which node)" /usr/local/bin/node
+   61  sudo rm -rf /usr/local/bin/node
+   62  node -v
+   63  ./setupProjectVersionRN.sh
+   64  brew uninstall node
+   65  node -v
+   66  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash\n
+   67  nvm -v
+   68  nvm install node
+   69  node -v
+   70  which node
+   71  wich node
+   72  node -v
+   73  which node
+   74  sudo rm -rf /usr/local/bin/node
+   75  sudo ln -s "$(which node)" /usr/local/bin/node
+   76  which node
+   77  cd ..
+   78  cd amedigital-rn
+   79  git fetch --all --tags --prune -f
+   80  xcode-select --install\n
+   81  cd Documents/projetos
+   82  ls -ltr
+   83  cd amedigital-android
+   84  git pull origin develop
+   85  git checkout release_1_66
+   86  git pull origin develop
+   87  git status
+   88  cd ..
+   89  cd amedigital-android
+   90  gits tatus
+   91  git status
+   92  sudo rm -rf /usr/local/bin/node
+   93  sudo ln -s "$(which node)" /usr/local/bin/node
+   94  git status
+   95  git checkout setupProjectVersionRN.sh
+   96  which node
+   97  sudo ln -s "$(which node)" /usr/local/bin/node
+   98  sudo rm -rf /usr/local/bin/node
+   99  sudo ln -s "$(which node)" /usr/local/bin/node
+  100  which node
+  101  sudo mkdir -p /usr/local/bin
+  102  which node
+  103  sudo ln -s /Users/heiderlopes/.nvm/versions/node/v17.2.0/bin/node /usr/local/bin/node
+  104  sudo rm -rf /usr/local/bin/node
+  105  sudo ln -s /Users/heiderlopes/.nvm/versions/node/v17.2.0/bin/node /usr/local/bin/node
+  106  which node
+  107  node -version
+  108  node -v
+  109  nvm alias default system\n
+  110  which node
+  111  ln -s /usr/local/bin/node node\n
+  112  java -version
+  113  sudo rm -rf /usr/local/bin/node
+  114  sudo ln -s "$(which node)" /usr/local/bin/node
+  115  which node
+  116  cd Documents/projetos
+  117  ls -ltr
+  118  rm -rf amedigital-rn
+  119  cd amedigital-android
+  120  ./prepareEnvironmentRN.sh
+  121  ./setupProjectVersionRN.sh
+  122  git status
+  123  rm -rf node
+  124  ls -ltr
+  125  git status
+  126  which node
+  127  node -v
+  128  cd ..
+  129  cd amedigital-rn
+  130  yarn install
+  131  cd ..
+  132  node
+  133  cd amedigital-android
+  134  ls -ltr
+  135  java -v
+  136  java -version
+  137  which node
+  138  ls -la /usr/local/bin/node
+  139  nvm install 14.17.0
+  140  git status
+  141  git tatus
+  142  sudo rm -rf /usr/local/bin/node
+  143  sudo ln -s "$(which node)" /usr/local/bin/node
+  144  which node
+  145  git status
+  146  git add .
+  147  git commit -m "Merge"
+  148  git config --global --edit
+  149  git status
+  150  git push origin release_1_66
+  151  git pull origin release_1_66
+  152  git statu
+  153  git status
+  154  git add .
+  155  git commit -m "Merge"
+  156  git checkout develop
+  157  git pull origin develop
+  158  git status
+  159  git checkout release_1_66
+  160  git pull origin develop
+  161  git status
+  162  git push origin release_1_66
+  163  git status
+  164  cd ..
+  165  ls -ltr
+  166  git clone git@github.com:AmeDigital/ame-gossipy-api.git
+  167  ls -ltr
+  168  cd ame-gossipy-api
+  169  ls -ltr
+  170  code .
+  171  git status
+  172  git pull origin release_1_66
+  173  git status
+  174  git pull origin release_1_66
+  175  git status
+  176  docker run -d -p 80:80 docker/getting-started
+  177  mkdir /var/jenkins
+  178  sudo mkdir /var/jenkins
+  179  sudo chmod -R 777 /var/jenkins
+  180  sudo mkdir /var/jenkins_home
+  181  sudo chmod -R 777 /var/jenkins_home
+  182  cd /var/jenkins_home
+  183  ls -ltr
+  184  cd ..
+  185  ls -ltr
+  186  rm -rf jenkins
+  187  sudo rm -rf jenkins
+  188  docker-compose up
+  189  ls -ltr
+  190  cd jenkins
+  191  docker-compose up
+  192  cd /var/jenkins_home/secrets/initialAdminPassword\n
+  193  code /var/jenkins_home/secrets/initialAdminPassword\n
+  194  git status
+  195  git pull origin release_1_66
+  196  git status
+  197  git add .
+  198  git commit -m "Estrutura do agendamento"
+  199  git status
+  200  git remote add origin git@github.com:heiderlopes/igeprev-pa.git
+  201  git push -u origin feat/scheduling
+  202  git status
+  203  git branch
+  204  git status
+  205  adb shell am startservice br.com.heiderlopes.notification.NotificationService\n
+  206  adb devices
+  207  cd
+  208  cd /Users/heiderlopes/Library/Android/sdk
+  209  cd platform-tools
+  210  adb
+  211  ./adb shell am startservice br.com.heiderlopes.notification.NotificationService\n
+  212  ./adb shell am startservice br.com.heiderlopes.notification/NotificationService\n
+  213  ./adb shell am startservice br.com.heiderlopes.notification/.NotificationService\n
+  214  cd 
+  215  cd Documents/projetos
+  216  ls -ltr
+  217  cd estudos
+  218  ls
+  219  cd ..
+  220  cd poc
+  221  cd IGEPREV
+  222  ls -ltr
+  223  git status
+  224  git checkout .
+  225  git status
+  226  git fetch --all
+  227  git branch -D feat/scheduling_rodrigo
+  228  git branch -d feat/scheduling_rodrigo
+  229  git branch
+  230  git fetch --all
+  231  git status
+  232  git diff build.gradle
+  233  git checkout build.gradle
+  234  git status
+  235  git add .
+  236  git commit -m "Criacao do layout dos itens da lista de agendamento"
+  237  git push origin feat/scheduling
+  238  git status
+  239  git add .
+  240  git commit -m "Consumo do servico dos agendamentos"
+  241  git status
+  242  git add .
+  243  git commit -m "Inclusao dos icones do cards de agendamento"
+  244  git push origin feat/scheduling
+  245  git status
+  246  git add .
+  247  git commit -m "Caso de uso para verificacao de agendamento finalizado"
+  248  git push origin feat/scheduling
+  249  git stauts
+  250  git status
+  251  adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
+  252  cd /Users/heiderlopes/Library/Android/sdk
+  253  cd platform-tools
+  254  adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
+  255  adb devices
+  256  ls -ltr
+  257  ./adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
+  258  ./adb devices
+  259  ./adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
+  260  ./adb devices | grep emulator | cut -f1
+  261  ./adb devices | grep emulator | cut -f1 | while read line; do ./adb -s $line emu kill; done
+  262  ./adb devices
+  263  ./adb kill-server
+  264  ./adb start-server
+  265  ./adb devices
+  266  \tcd /Users/heiderlopes/Library/Android/sdk
+  267  cd platform-tools
+  268  ./adb devices
+  269  ./adb kill-server
+  270  ./adb devices
+  271  cd /Users/heiderlopes/Library/Android/sdk
+  272  ./adb devics
+  273  ./adb devices
+  274  cd platform-tools
+  275  ./adb devices
+  276  ls -ltr
+  277  cd .. 
+  278  cd ..
+  279  c d..
+  280  cd  ..
+  281  ls -ltr
+  282  cd Android
+  283  ls -ltr
+  284  cd ..
+  285  rm -rf Android
+  286  git stauts
+  287  git status
+  288  git add .
+  289  git commit -m "Implementacao do detalhe do agendamento e cancelamento na tela de agendamento"
+  290  git status
+  291  git add .
+  292  git commit -m "Cancelamento de agendamento na listagem"
+  293  git status
+  294  git push origin feat/scheduling
+  295  git status
+  296  git add .
+  297  git commit -m "Mock do servico de horarios disponiveis"
+  298  git push origin feat/scheduling
+  299  git status
+  300  git add .
+  301  git commit -m "Reagendamento estruturado"
+  302  git status
+  303  git push origin feat/scheduling
+  304  git status
+  305  git add .
+  306  git commit -m "Exibicao da lista para solicitar portaria"
+  307  git status
+  308  git push origin feat/scheduling
+  309  git status
+  310  git add .
+  311  git status
+  312  git add .
+  313  git commit -m "Fix acesso ao disco no envio de documentos"
+  314  git push origin feat/scheduling
+  315  git status
+  316  git add .
+  317  git commit -m "Tratamento para cadastro de telefone inciando com 9"
+  318  git status
+  319  git push origin feat/scheduling
+  320  open .
+  321  cd ..
+  322  open .
+  323  cd ..
+  324  open .
+  325  d
+  326  cd ..
+  327  open .
+  328  cd Documents
+  329  cd projetos
+  330  ls -ltr
+  331  cd estudos
+  332  ls 
+  333  mkdir backend
+  334  cd backend
+  335  brew tap heroku/brew && brew install heroku
+  336  heroku autocomplete
+  337  heroku git:clone -a pokedexdx$ cd pokedexdx
+  338  heroku login
+  339  heroku git:clone -a pokedexdx$ cd pokedexdx
+  340  heroku git:clone -a pokedex cd pokedexdx
+  341  heroku git:clone -a pokedex
+  342  heroku user
+  343  heroku login 
+  344  heroku git:clone -a pokedexdx$
+  345  mkdir pokedexdx
+  346  heroku git:clone -a pokedexdx$ cd pokedexdx
+  347  heroku git:clone pokedexdx$ cd pokedexdx
+  348  heroku git:clone pokedexdx
+  349  heroku git:clone -a pokedexdx
+  350  ls -ltr
+  351  cd pokedexdx
+  352  ls -ltr
+  353  code .
+  354  git status
+  355  git checkout .
+  356  git status
+  357  git fetch --all
+  358  git checkout feat/staging-akamai
+  359  git status
+  360  git pull origin develop
+  361  git checkout develop
+  362  git pull develop
+  363  git status
+  364  git pull origin develop
+  365  git status
+  366  git checkout feat/staging-akamai
+  367  git pull origin feat/staging-akamai
+  368  git status
+  369  cd .. 
+  370  cd amedigital-rn
+  371  git fetch --all --tags --prune -f
+  372  git status
+  373  cd ..
+  374  open .
+  375  cd Documents/projetos/amedigital-android
+  376  cd ..
+  377  ls -ltr
+  378  git clone git@github.com:AmeDigital/ame-deeplink-android.git
+  379  git status
+  380  ls -ltr
+  381  cd ame-deeplink-android
+  382  git status
+  383  cd ..
+  384  ls -ltr
+  385  mkdir miniapps
+  386  cd miniapps
+  387  git clone git@github.com:AmeDigital/mini-app-postos-br.git
+  388  ls -ltr
+  389  cd mini-app-postos-br
+  390  code .
+  391  git init
+  392  git add .
+  393  git commit -m "Criacao do projeto"
+  394  git checkout -b mvc
+  395  git add .
+  396  git commit -m "Implementacao do MVC"
+  397  git checkout master
+  398  git checkout -b mvp
+  399  git add .
+  400  git commit -m "Implementacao do MVP"
+  401  git checkout master
+  402  git checkout mvp
+  403  git checkout master
+  404  git checkout -b mvvm
+  405  git status
+  406  git add .
+  407  git commit -m "Implementacao MVVM"
+  408  git status
+  409  git checkout -b mvvm2
+  410  git checkout mvvm 
+  411  git checkout -b mvvm-viewbinding
+  412  git add .
+  413  git commit -m "Implementacao com ViewState e ViewBinding"
+  414  code /Users/heiderlopes/Downloads/calcula_flex_template-master\ 2 
+  415  open .
+  416  git init 
+  417  git status
+  418  git add .
+  419  git commit -m "Criacao do template"
+  420  git status
+  421  git checkout demo
+  422  git checkout -b demo
+  423  git status
+  424  git statu
+  425  git status
+  426  git add .
+  427  git commit -m "Autenticacao com Firebase"
+  428  git status
+  429  vim .gitignore
+  430  git status
+  431  vim .gitignore
+  432  git status
+  433  git restore app/google-services.json
+  434  git status
+  435  git add .
+  436  git commit -m "Esqueci minha senha"
+  437  git status
+  438  vim .gitignore
+  439  git status
+  440  vim .gitignore
+  441  git rm --cache app/google-services.json
+  442  git status
+  443  npm install -g firebase-tools
+  444  firebase login 
+  445  cd Documents/
+  446  cd projetos
+  447  mkdir fiap
+  448  cd fiap
+  449  mkdir calcula_flex_website
+  450  cd calcula_flex_website
+  451  firebase init
+  452  cd public
+  453  touch index.html
+  454  vim index.html
+  455  code .
+  456  firebase deploy
+  457  git status
+  458  git add .
+  459  git commit -m "Criacao de usuario"
+  460  git remote add origin git@github.com:heiderlopes/calcula_flex_template_3_0.git
+  461  git branch -M main
+  462  git push -u origin main
+  463  git status
+  464  git branch
+  465  git add .
+  466  git commit -m "Remote config"
+  467  git push origin main
+  468  git checkout master
+  469  git status
+  470  git rm --cache app/google-services.json
+  471  rm -rf app/google-services.json
+  472  git status
+  473  git add .
+  474  git commit -m "Estrutura do projeto"
+  475  git status
+  476  git push origin master
+  477  cd ..
+  478  c d..
+  479  cd ..
+  480  ls -ltr
+  481  git clone git@github.com:heiderlopes/calcula_flex_template_3_0.git
+  482  ls -ltr
+  483  cd calcula_flex_template_3_0
+  484  ls -ltr
+  485  git status
+  486  git checkout demo
+  487  git checkout .
+  488  git checkout demo
+  489  git status
+  490  git hard reset
+  491  git reset --hard
+  492  git status
+  493  git checkout demo
+  494  which java
+  495  git status
+  496  git diff app/src/main/java/br/com/calculaflex/presentation/home/HomeViewModel.kt
+  497  git checkout app/src/main/java/br/com/calculaflex/presentation/home/HomeViewModel.kt
+  498  git status
+  499  git checkout -b demo_koin
+  500  git status
+  501  git add .
+  502  git commit -m "Implementacao do Koin"
+  503  git status
+  504  git push origin demo_koin
+  505  git status
+  506  git add .
+  507  git commit -m "Implementacao do signout"
+  508  git status
+  509  git add .
+  510  git commit -m "Alteracao do icone do app"
+  511  git push origin demo_koin
+  512  git status
+  513  git add .
+  514  git commit -m "Bug fix"
+  515  git push origin feat/scheduling
+  516  git checkout develop
+  517  git pull origin feat/scheduling
+  518  git push origin develop
+  519  git status
+  520  git checkout feat/scheduling
+  521  git status
+  522  ls -ltr
+  523  cd amedigital-android
+  524  ls -lt
+  525  git status
+  526  git checkout develop
+  527  git status
+  528  git fetch --all
+  529  git status
+  530  git pull origin develop
+  531  git status
+  532  git pull origin develop
+  533  git status
+  534  git checkout .
+  535  git status
+  536  cd ..
+  537  cd amedigital-rn
+  538  git fetch --all --tags --prune -f
+  539  git status
+  540  cd ..
+  541  cd amedigital-android
+  542  cd Documents/projetos/
+  543  ls -ltr
+  544  mkdir ame-digital-projects
+  545  cd ame-digital-projects
+  546  git clone https://github.com/AmeDigital/postman-collections
+  547  git clone git@github.com:AmeDigital/postman-collections.git
+  548  ls -tlr
+  549  git status
+  550  git checkout .
+  551  git status
+  552  cd Documents/certificates
+  553  pwd
+  554  cd ~/Library/Caches/
+  555  ls -ltr
+  556  sudo keytool -importcert -trustcacerts -keystore ~/Library/caches/AndroidStudio3.5/tasks/cacerts -storepass changeit -alias ame-root-cert -file /Users/heiderlopes/Documents/certificates/cert_CA-AME-DIGITAL.crt
+  557  cd /Applications/Android\ Studio.app/Contents/jre/Contents/Home
+  558  sudo ./bin/keytool -importcert -file /Users/heiderlopes/Documents/certificates/cert_CA-AME-DIGITAL.crt -keystore ./lib/security/cacerts -storepass changeit -noprompt
+  559  git status
+  560  git add .
+  561  git commit -m "Update lib JSOUP"
+  562  git push origin master
+  563  git status
+  564  git pull origin feat/scheduling
+  565  git status
+  566  git pull origin develop
+  567  sudo npm install -g --unsafe-perm node-red\n
+  568  node-red
+  569  cd Documents/projetos
+  570  ls -ltr
+  571  cd estudos
+  572  ls
+  573  mkdir android
+  574  cd android
+  575  git clone git@github.com:heiderlopes/23MOB_Appiadas.git
+  576  firebase login:ci
+  577* git status
+  578* git pull origin master
+  579* git status
+  580* git add .
+  581* git commit -m "Teste"
+  582* git push origin master
+  583* git status
+  584  git clone git@github.com:heiderlopes/tictactoe.git
+  585* git stauts
+  586* git status
+  587* git checkout -b 
+  588* git checkout -b feat/teste
+  589* git status
+  590* git add .
+  591* git commit -m "Adicao de teste"
+  592* git status
+  593* git push origin feat/teste
+  594* git checkout master
+  595* git checkout -b feat/teste2
+  596* git checkout master
+  597* git pull origin master
+  598* git status
+  599* git checkout feat/teste2
+  600* git pull origin master
+  601* git status
+  602* git add .
+  603* git commit -m "TEste 2"
+  604* git push origin feat/teste2
+  605* cd path: app/build/outputs/apk/prd/debug/
+  606* cd app/build/outputs/apk/prd/debug/
+  607* cd app/
+  608* ls -tr
+  609* cd build
+  610* ls
+  611* cd outputs
+  612* ls -ltr
+  613* cd apk
+  614* ls -ltr
+  615* cd debug
+  616* ls -ltr
+  617* git checkout master
+  618* git pull origin master
+  619* cd ../../../
+  620* cd ../../
+  621* cd app/build/outputs/apk/debug/
+  622* git status
+  623* git checkout feat/teste3
+  624* git status
+  625* git checkout -b feat/teste3
+  626* git add .
+  627* git commit -m "Teste 3"
+  628* cd 
+  629* cd Documents/projetos/estudos/
+  630* ls
+  631* cd android
+  632* ls
+  633* cd tictactoe
+  634* ls -ltr
+  635* git add .
+  636* git commit -m "Teste 3"
+  637* git push origin feat/teste3
+  638* ls -ltr
+  639* git checkout master
+  640* cd app/build/outputs/apk/debug
+  641* ls -ltr
+  642* cd 
+  643* cd Documents/projetos/estudos/android/tictactoe
+  644* ls -ltr
+  645* git pull origin master
+  646* git checkout -b feat/teste4
+  647* git status
+  648* git add .
+  649* git commit -m "Teste 4"
+  650* git push origin feat/teste4
+  651* git status
+  652* git add .
+  653* git commit -m "Teste de erro"
+  654* git push origin feat/teste4
+  655* git status
+  656* git add .
+  657* git commit -m "Correcao do teste"
+  658* git push origin feat/teste4
+  659  firebase login:ci
+  660* git checkout master
+  661* git pull origin master
+  662* git status
+  663* git add .
+  664* git commit -m "Teste"
+  665* git push origin master
+  666* git checkout feat/teste5
+  667* git status
+  668* git add .
+  669* git commit -m "Teste 5"
+  670* git status
+  671* git push origin master
+  672  node -v
+  673* git stastus
+  674* git status
+  675* git add .
+  676* git commit -m "Tete
+  677* git commit -m "Teste"
+  678* git push origin master
+  679  history
+  680* git status
+  681* git fetch --all

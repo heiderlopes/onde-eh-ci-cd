@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539471433386",
+    "project_id": "onde-eh-196ce",
+    "storage_bucket": "onde-eh-196ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539471433386:android:55c5e324a78ee8daa20ad3",
+        "android_client_info": {
+          "package_name": "br.com.heiderlopes.ondeeh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539471433386-b5jtgdcqtlmjc6gdkioe00qu5d2kfk70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDDF_OXoYPjfC0IqidyY1q2-mY3Te9J60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539471433386-b5jtgdcqtlmjc6gdkioe00qu5d2kfk70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
