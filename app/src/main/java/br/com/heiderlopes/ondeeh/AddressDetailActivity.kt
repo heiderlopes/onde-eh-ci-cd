@@ -1,10 +1,8 @@
 package br.com.heiderlopes.ondeeh
-
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import br.com.heiderlopes.ondeeh.databinding.ActivityAddressDetailBinding
-import br.com.heiderlopes.ondeeh.databinding.ActivityMainBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

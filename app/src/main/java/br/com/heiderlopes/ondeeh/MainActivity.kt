@@ -1,14 +1,11 @@
 package br.com.heiderlopes.ondeeh
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import br.com.heiderlopes.ondeeh.databinding.ActivityMainBinding
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,12 +30,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val searchResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        if(result.resultCode == RESULT_OK) {
-            //result.data?.getStringExtra("CHAVE")?.let { result -> }
+        if (result.resultCode == RESULT_OK) {
+            // result.data?.getStringExtra("CHAVE")?.let { result -> }
             binding.etCep.setText("")
         } else {
-            //No momento não teremos nenhuma interação caso resultCode seja diferente de RESULT_OK
+            // No momento não teremos nenhuma interação caso resultCode seja diferente de RESULT_OK
         }
     }
-
 }

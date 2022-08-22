@@ -8,5 +8,4 @@ interface AddressService {
 
     @GET("/ws/{cep}/json")
     fun search(@Path("cep") cep: String): Call<Address>
-
 }
